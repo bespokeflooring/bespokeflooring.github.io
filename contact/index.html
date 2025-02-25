@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact |bespoke flooring</title>
-    <meta name="description" content="Sample web page description goes here.">
+    <meta name="contact" content="contact email.">
 
 	<!-- Preload large image -->
     <link rel="preload" href="assets/img/contact.png" as="image">
+    <link rel="preload" href="assets/img/woodlogo.png" as="image">
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
@@ -31,28 +32,49 @@
  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
  <link rel="manifest" href="assets/img/site.webmanifest">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-42R4BNWJSH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-42R4BNWJSH');
+</script>
+
+
 </head>
 
 
 <body>
     <!-- navbar start here -->
-    <nav class="theme-light"><div class="container-menu">
-        <a href="../index.html" class="brand">
-            <img src="assets/img/logo.svg" alt="Sample website logo"></a>
-        
-        <div class="container-menu-links">
-        
-        <div class="nav-toggle" id="nav-toggle-btn"><div class="bar-1"></div><div class="bar-2"></div><div class="bar-3"></div></div>
-            <ul class="links-wrapper">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="ourwork/index.html">Our Work</a></li>
-                <li><a href="flooringselection/index.html">Flooring Selection</a></li>
-				<li><a href="ourservice/index.html">Our Service</a></li>
-				<li><a href="../about/index.html">About</a></li>
-                <li><a class="btn btn-solid btn-soft" id="btn-cta" href="#"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
-            </ul>
-            </div>
-        </div>
+    <nav class="theme-light menu-sticky">
+        <div class="container-menu">
+            <a href="../index.html" class="brand">
+                <img src="assets/img/logo.svg" alt="Sample website logo">
+            </a>
+    
+            <div class="container-menu-links">
+    
+                <!-- hamburger icon -->
+                <div class="nav-toggle" id="nav-toggle-btn">
+                    <div class="bar-1"></div>
+                    <div class="bar-2"></div>
+                    <div class="bar-3"></div>
+                </div>
+    
+                <!-- List of links -->
+                <ul class="links-wrapper">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../ourwork/index.html">Our Work</a></li>
+                    <li><a href="../flooringselection/index.htm">Flooring Selection</a></li>
+                    <li><a href="../ourservice/index.html">Our Services</a></li>
+                    <li><a href="../about/index.html">About</a></li>
+                    <li><a class="btn btn-solid btn-soft" id="btn-cta" href="#"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
+                </ul>
+    
+            </div><!-- closes container-menu-links -->
+        </div><!-- closes container-menu -->
     </nav>
    <main>
 <!-- header starts here -->
@@ -75,7 +97,7 @@
     <body>
         <div class="contact-page">
 
-            <form id="email-form" name="email-form" charset="utf-8" method="post" action="https://formspree.io/f/mnqkkzbw">
+            <form id="email-form" name="email-form" charset="utf-8" method="post" action="https://formspree.io/f/xanqgvjr">
             </form>
             <form>
                 <label for="name">Name:</label>
@@ -134,11 +156,11 @@
 	
 	
         <ul class="footer-links">
-            <li><a href="index.html"
+            <li><a href="../index.html"
                 >Home</a></li>
-            <li><a href="flooringselection/index.html">Products</a></li>
-            <li><a href="ourservice/index.html">Services</a></li>
-            <li><a href="privacy.html">Legal &amp; Privacy</a></li>
+            <li><a href="../flooringselection/index.htm">Products</a></li>
+            <li><a href="../ourservice/index.html">Services</a></li>
+            <li><a href="../privacy.html">Legal &amp; Privacy</a></li>
 			</ul>
 	
 			<ul class="footer-icons">
@@ -146,7 +168,7 @@
 				<li><a href="https://www.instagram.com/mswiftbespokeflooring?igsh=MW9wcGwwYXduZGF1NA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a></li>
 				
 				<li><a href="http://linkedin.com/in/mark-swift-410b86167"><i class="fa-brands fa-linkedin"></i></a></li>
-				<li><a href="tel +353863777273"><i class="las la-phone-volume"></i></a></li>
+				<li><a href="tel:+353863777273"><i class="las la-phone-volume"></i></a></li>
 				<li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
 			</ul>
 	
