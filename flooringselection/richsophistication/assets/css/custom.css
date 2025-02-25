@@ -57,6 +57,8 @@ nav.theme-light,
 .section-selector-2.theme-light .col-4 { border-color: var(--black-000) }
 .section-selector-2 .cols-shadows .col-4 { box-shadow: rgba(188,170,164,0.9) 14px 14px 14px 0 }
 
+
+
 .section-selector-3 { background-color: var(--brown-050) }
 .section-selector-3 .container-btn a.btn:nth-child(1):link,
 .section-selector-3 .container-btn a.btn:nth-child(1):visited { color: var(--black-000) }
@@ -75,6 +77,9 @@ nav.theme-light,
 .section-selector-3 .container-btn a.btn:nth-child(1):focus,
 .section-selector-3 .container-btn a.btn:nth-child(1):hover,
 .section-selector-3 .container-btn a.btn:nth-child(1):active .container-btn { border-color: var(--brown-300) }
+
+
+
 
 footer.theme-dark { background-color: var(--brown-100) }
 footer.theme-dark .copyright { background-color: var(--brown-100) }
